@@ -1,0 +1,124 @@
+/*********************************************************************
+ * Columns
+ *********************************************************************/
+/* Guild icon column */
+div[class^="container-"] > div[class^="wrapper-"] {
+  width: 55px !important;
+}
+
+div[class^="base-"] {
+  left: 55px !important;
+}
+
+/* Channels */
+div[class^="sidebar-"] {
+  width: 170px !important;
+}
+
+/* Members */
+div[class^="membersWrap-"] {
+  min-width: 170px !important;
+  width: 170px !important;
+}
+
+div[class^="member-"] {
+  max-width: 160px !important;
+}
+
+div[class^="member-"] > div > div[class^="content-"] {
+  width: 100px !important;
+}
+
+/*********************************************************************
+ * Discord default icons
+ *********************************************************************/
+/* Add new guild icon */
+div[class^="scroller-"] div[class^="circleButtonMask-"] {
+  transform: scale(0.75, 0.75) !important;
+}
+
+/* Home icon inner container */
+div[class^="scroller-"] > div[class^="listItem-"] > div[class^="listItemWrapper-"] {
+  transform: scale(0.75, 0.75) !important;
+}
+
+/* Whisper icon inner container */
+div[class^="scroller-"] > div > div[class^="listItem-"] > div[class^="listItemWrapper-"] {
+  transform: scale(0.75, 0.75) !important;
+}
+
+/* Guild (Home and PM) icon inner container */
+div[class^="scroller-"] > div[class^="listItem-"] > div[class^="wrapper-"] {
+  transform: scale(0.75, 0.75) !important;
+}
+
+/* Whisper icon container */
+div[class^="scroller-"] > div > div[class^="listItem-"] {
+  left: -10px !important;
+  margin-bottom: 1px !important;
+  margin-top: 1px !important;
+}
+
+/*********************************************************************
+ * Guild icons (common)
+ *********************************************************************/
+/* Guild icon scroller padding */
+div[class^="scroller-"] {
+  padding-left: 3px !important;
+}
+
+/*********************************************************************
+ * Guild icons (single)
+ *********************************************************************/
+/* Guild icon inner container */
+div[class^="scroller-"] > div[class^="listItem-"] > div[class^="blobContainer-"] > div[class^="wrapper-"] {
+  transform: scale(0.75, 0.75) !important;
+}
+
+/* Guild icon container */
+div[class^="scroller-"] > div[class^="listItem-"] {
+  left: -10px !important;
+  margin-bottom: 1px !important;
+  margin-top: 1px !important;
+}
+
+/* Guild badge container */
+div[class^="scroller-"] > div[class^="listItem-"] > div[class*="badge-"] {
+  left: 30px !important;
+  right: 2px !important;
+}	
+
+/* Guild icon indicator */
+div[class^="scroller-"] > div[class^="listItem-"] > div[class^="pill-"] {
+  left: 8px !important;
+}
+
+/*********************************************************************
+ * Guild icons (folder)
+ *********************************************************************/	
+/* Guild icon inner container */
+div[class^="scroller-"] > div[class^="wrapper-"] > div[class^="listItem-"] > div > div[class^="wrapper-"] {
+  transform: scale(0.75, 0.75) !important;
+}
+
+/* Guild icon expanded container */
+div[class^="scroller-"] > div[class^="wrapper-"] > div[class^="expandedGuilds-"] {
+  overflow: visible !important;
+  transform: scale(0.75, 0.75) translateY(-12%) !important;
+}
+
+/* Guild icon expanded container */
+div[class^="scroller-"] > div[class^="wrapper-"] > div[class^="expandedGuilds-"] > div[class^="listItem-"] {
+  left: -14px !important;
+}
+
+/* Guild icon expanded background*/
+div[class^="scroller-"] > div[class^="wrapper-"] > span[class^="expandedFolderBackground-"] {
+  left: 2px !important;
+  transform: scale(0.75, 0.75) translateY(-12%) !important;
+}
+
+/* Guild icon folder indicator */
+div[class^="scroller-"] > div[class^="wrapper-"] > div[class^="listItem-"] > div[class^="pill-"] {
+  left: 8px !important;
+}
