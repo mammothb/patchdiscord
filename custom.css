@@ -21,6 +21,10 @@ div[class^="membersWrap-"] {
   width: 170px !important;
 }
 
+div[class*="members-"] {
+  width: auto !important;
+}
+
 div[class^="member-"] {
   max-width: 160px !important;
 }
