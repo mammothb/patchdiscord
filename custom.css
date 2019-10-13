@@ -17,8 +17,7 @@ div[class^="sidebar-"] {
 
 /* Members */
 div[class^="membersWrap-"] {
-  min-width: 170px !important;
-  width: 170px !important;
+  min-width: auto !important;
 }
 
 div[class*="members-"] {
