@@ -125,3 +125,10 @@ div[class^="scroller-"] > div[class^="wrapper-"] > span[class^="expandedFolderBa
 div[class^="scroller-"] > div[class^="wrapper-"] > div[class^="listItem-"] > div[class^="pill-"] {
   left: 8px !important;
 }
+
+/*********************************************************************
+ * Blocked messages
+ *********************************************************************/
+div[class^="messageGroupBlocked-"] {
+  display: none !important;
+}
