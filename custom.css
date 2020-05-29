@@ -62,6 +62,13 @@ div[class^="scroller-"] > div > div[class^="listItem-"] {
   margin-top: 1px !important;
 }
 
+/* Search icon container */
+div[class^="scroller-"] > div[class^="listItem-"] {
+  left: -10px !important;
+  margin-bottom: 1px !important;
+  margin-top: 1px !important;
+}
+
 /*********************************************************************
  * Guild icons (common)
  *********************************************************************/
@@ -74,25 +81,25 @@ div[class^="scroller-"] {
  * Guild icons (single)
  *********************************************************************/
 /* Guild icon inner container */
-div[class^="scroller-"] > div[class^="listItem-"] > div[class^="blobContainer-"] > div[class^="wrapper-"] {
+div[class^="scroller-"]  > div > div[class^="listItem-"] > div[class^="blobContainer-"] > div[class^="wrapper-"] {
   transform: scale(0.75, 0.75) !important;
 }
 
 /* Guild icon container */
-div[class^="scroller-"] > div[class^="listItem-"] {
+div[class^="scroller-"] > div > div[class^="listItem-"] {
   left: -10px !important;
   margin-bottom: 1px !important;
   margin-top: 1px !important;
 }
 
 /* Guild badge container */
-div[class^="scroller-"] > div[class^="listItem-"] > div[class*="badge-"] {
+div[class^="scroller-"] > div > div[class^="listItem-"] > div[class*="badge-"] {
   left: 30px !important;
   right: 2px !important;
 }	
 
 /* Guild icon indicator */
-div[class^="scroller-"] > div[class^="listItem-"] > div[class^="pill-"] {
+div[class^="scroller-"] > div > div[class^="listItem-"] > div[class^="pill-"] {
   left: 8px !important;
 }
 
@@ -100,35 +107,42 @@ div[class^="scroller-"] > div[class^="listItem-"] > div[class^="pill-"] {
  * Guild icons (folder)
  *********************************************************************/	
 /* Guild icon inner container */
-div[class^="scroller-"] > div[class^="wrapper-"] > div[class^="listItem-"] > div > div[class^="wrapper-"] {
+div[class^="scroller-"] > div > div[class^="wrapper-"] > div[class^="listItem-"] > div > div[class^="wrapper-"] {
   transform: scale(0.75, 0.75) !important;
 }
 
+/* Guild icon container */
+div[class^="scroller-"] > div > div[class^="wrapper-"] {
+  left: -10px !important;
+  margin-bottom: 1px !important;
+  margin-top: 1px !important;
+}
+
 /* Guild icon expanded container */
-div[class^="scroller-"] > div[class^="wrapper-"] > div[class^="expandedGuilds-"] {
+div[class^="scroller-"] > div > div[class^="wrapper-"] > div[role="group"] {
   overflow: visible !important;
   transform: scale(0.75, 0.75) translateY(-12%) !important;
 }
 
 /* Guild icon expanded container */
-div[class^="scroller-"] > div[class^="wrapper-"] > div[class^="expandedGuilds-"] > div[class^="listItem-"] {
+/* div[class^="scroller-"] > div > div[role="treeitem"] > div[role="group"] > div[class^="listItem-"] {
   left: -14px !important;
-}
+} */
 
 /* Guild icon expanded background*/
-div[class^="scroller-"] > div[class^="wrapper-"] > span[class^="expandedFolderBackground-"] {
-  left: 2px !important;
+div[class^="scroller-"] > div > div[class^="wrapper-"] > span[class^="expandedFolderBackground-"] {
+  /* left: 2px !important; */
   transform: scale(0.75, 0.75) translateY(-12%) !important;
 }
 
 /* Guild icon folder indicator */
-div[class^="scroller-"] > div[class^="wrapper-"] > div[class^="listItem-"] > div[class^="pill-"] {
+div[class^="scroller-"] > div > div[class^="wrapper-"] > div[class^="listItem-"] > div[class^="pill-"] {
   left: 8px !important;
 }
 
 /*********************************************************************
  * Blocked messages
  *********************************************************************/
-div[class^="messageGroupBlocked-"] {
+div[class^="groupStart-"] {
   display: none !important;
 }
