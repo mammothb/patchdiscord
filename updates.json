@@ -8,7 +8,7 @@
         "paths.init(_buildInfo);\n"
       ],
       "  mainWindow.webContents.on('did-finish-load', () => {\n" : [
-        9,
+        11,
         "    fs.readFile(paths.getModulePath() + '/discord_desktop_core/custom.css', 'utf-8', function(error, data) {\n",
         "      const formatedData = data.replace(/\\s{2,10}/g, ' ').trim();\n",
         "      mainWindow.webContents.insertCSS(formatedData);\n",
